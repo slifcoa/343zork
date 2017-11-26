@@ -46,7 +46,7 @@ class Home(Observable, Observer):
     #####################################################################
     def update(self, other):
         self.monsters.remove(other)
-        self.monstersRem -= 1
         self.monsters.append(Monsters.factory("person"))
+        self.monstersRem -= 1
         super().update(self)
 

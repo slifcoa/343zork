@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc4a42a-fd18-497a-add4-ef5453eb865c" name="Default" comment="" />
+    <list default="true" id="4fc4a42a-fd18-497a-add4-ef5453eb865c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zork/game.py" afterPath="$PROJECT_DIR$/Zork/game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zork/home.py" afterPath="$PROJECT_DIR$/Zork/home.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/adam343zork$game.coverage" NAME="game Coverage Results" MODIFIED="1511239654081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zork" />
+    <SUITE FILE_PATH="coverage/adam343zork$game.coverage" NAME="game Coverage Results" MODIFIED="1511730465233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zork" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Zork/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5041">
-              <caret line="411" column="46" lean-forward="false" selection-start-line="411" selection-start-column="46" selection-end-line="411" selection-end-column="46" />
+            <state relative-caret-position="102">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
               <folding>
                 <element signature="e#43#76#0" expanded="true" />
               </folding>
@@ -26,11 +31,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1511730487847" expanded="true" signature="61708:61832" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61708:61850" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61708:61863" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61708:61878" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61732:61815" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61913:64511" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61926:64496" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61980:62275" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="61999:62260" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62062:62240" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62102:62206" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62123:62184" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62325:62652" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62344:62637" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62439:62617" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62479:62583" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62500:62561" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62703:63075" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62722:63060" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62862:63040" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62902:63006" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="62923:62984" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63118:63424" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63137:63409" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63211:63389" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63251:63355" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63272:63333" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63475:63824" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63494:63809" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63572:63789" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63612:63755" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63633:63733" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63859:64165" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63878:64150" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63952:64130" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="63992:64096" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="64013:64074" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="64217:64482" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="64236:64467" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="64269:64447" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="64309:64413" ph="..." />
+                <marker date="1511730487847" expanded="true" signature="64330:64391" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/home.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="44" column="76" lean-forward="false" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
+            <state relative-caret-position="782">
+              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
               <folding>
                 <element signature="e#43#72#0" expanded="true" />
               </folding>
@@ -41,7 +109,7 @@
       <file leaf-file-name="Monsters.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/Monsters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="2023">
               <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
               <folding>
                 <element signature="e#43#77#0" expanded="true" />
@@ -53,7 +121,7 @@
       <file leaf-file-name="neighborhood.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/neighborhood.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="571">
               <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
               <folding />
             </state>
@@ -63,7 +131,7 @@
       <file leaf-file-name="observable.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/observable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="544">
               <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
               <folding />
             </state>
@@ -73,7 +141,7 @@
       <file leaf-file-name="observer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/observer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="102">
               <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding />
             </state>
@@ -83,7 +151,7 @@
       <file leaf-file-name="player.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="136">
               <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
@@ -95,21 +163,9 @@
       <file leaf-file-name="Weapons.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zork/Weapons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="935">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zork/controller.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-              <folding>
-                <element signature="e#43#68#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,11 +174,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>World</find>
       <find>monRemaining</find>
       <find>attack</find>
       <find>defend</find>
-      <find>player</find>
       <find>player</find>
       <find>houses</find>
       <find>attackPower</find>
@@ -143,13 +197,15 @@
       <find>y</find>
       <find>itemNo</find>
       <find>monsters infest</find>
-      <find>&quot;&quot;&quot;</find>
       <find>townGrid</find>
+      <find>playerY</find>
+      <find>&quot;&quot;&quot;</find>
+      <find>getImage</find>
+      <find>lightblue</find>
+      <find>getIcon</find>
+      <find>player</find>
     </findStrings>
     <replaceStrings>
-      <replace>Controller</replace>
-      <replace>monRemaining</replace>
-      <replace>mDefending</replace>
       <replace>mAttacking</replace>
       <replace>pAttack</replace>
       <replace>pDefend</replace>
@@ -175,9 +231,15 @@
       <replace>itemIndex</replace>
       <replace>totalMonsters</replace>
       <replace>#</replace>
-      <replace>#</replace>
       <replace>nMap</replace>
+      <replace>yAxis</replace>
+      <replace>#</replace>
+      <replace>getIcon</replace>
+      <replace>green</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -190,9 +252,7 @@
         <option value="$PROJECT_DIR$/Zork/world.py" />
         <option value="$PROJECT_DIR$/Zork/mob_factory.py" />
         <option value="$PROJECT_DIR$/Zork/weapon_factory.py" />
-        <option value="$PROJECT_DIR$/Zork/game.py" />
         <option value="$PROJECT_DIR$/Zork/controller.py" />
-        <option value="$PROJECT_DIR$/Zork/home.py" />
         <option value="$PROJECT_DIR$/Zork/Monsters.py" />
         <option value="$PROJECT_DIR$/Zork/neighborhood.py" />
         <option value="$PROJECT_DIR$/Zork/observable.py" />
@@ -200,6 +260,8 @@
         <option value="$PROJECT_DIR$/Zork/player.py" />
         <option value="$PROJECT_DIR$/Zork/Weapons.py" />
         <option value="$PROJECT_DIR$/Zork/__init__.py" />
+        <option value="$PROJECT_DIR$/Zork/home.py" />
+        <option value="$PROJECT_DIR$/Zork/game.py" />
       </list>
     </option>
   </component>
@@ -209,11 +271,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -229,8 +292,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,6 +311,12 @@
               <item name="adam343zork" type="462c0819:PsiDirectoryNode" />
               <item name="Zork" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adam343zork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam343zork" type="462c0819:PsiDirectoryNode" />
+              <item name="Zork" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,9 +330,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -404,22 +473,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adam343zork" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -490,6 +543,22 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="adam343zork" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adam343zork" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -559,30 +628,33 @@
       <option name="presentableId" value="Default" />
       <updated>1511213694760</updated>
       <workItem from="1511213696227" duration="2074000" />
-      <workItem from="1511215789791" duration="23253000" />
+      <workItem from="1511215789791" duration="30445000" />
+      <workItem from="1511729842520" duration="228000" />
+      <workItem from="1511730155769" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25327000" />
+    <option name="totallyTimeSpent" value="33054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33385092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3323124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5007342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15739386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -597,7 +669,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,6 +683,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511730487847" expanded="true" signature="61708:61832" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61708:61850" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61708:61863" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61708:61878" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61732:61815" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61913:64511" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61926:64496" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61980:62275" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61999:62260" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62062:62240" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62102:62206" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62123:62184" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62325:62652" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62344:62637" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62439:62617" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62479:62583" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62500:62561" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62703:63075" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62722:63060" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62862:63040" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62902:63006" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62923:62984" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63118:63424" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63137:63409" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63211:63389" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63251:63355" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63272:63333" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63475:63824" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63494:63809" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63572:63789" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63612:63755" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63633:63733" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63859:64165" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63878:64150" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63952:64130" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63992:64096" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64013:64074" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64217:64482" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64236:64467" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64269:64447" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64309:64413" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64330:64391" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="e#43#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/Monsters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/neighborhood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/observable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/observer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding>
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/Weapons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Zork/game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -631,14 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Zork/Monsters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -695,88 +881,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#43#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/battleBG.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/battlefield.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/battlegrounds.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/ghoul.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/person.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/vampire.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/README.md" />
+    <entry file="file://$PROJECT_DIR$/Zork/background.png" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/battleBG.png" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/battlefield.jpg" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/battlegrounds.jpg" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/ghoul.png" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/person.png" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/vampire.png" />
     <entry file="file://$PROJECT_DIR$/Zork/assets/battlefieldP.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/wd1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/wd2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/assets/wd1.png" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/wd2.png" />
+    <entry file="file://$PROJECT_DIR$/Zork/assets/background.png" />
     <entry file="file://$PROJECT_DIR$/Zork/assets/ghoul.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/assets/house1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/assets/house1.png" />
     <entry file="file://$PROJECT_DIR$/Zork/assets/neighborhood.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -811,15 +940,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-          <folding>
-            <element signature="e#43#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zork/Monsters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="2023">
           <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
           <folding>
             <element signature="e#43#77#0" expanded="true" />
@@ -827,33 +953,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/neighborhood.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/observable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/observer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Zork/player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="136">
           <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
           <folding>
             <element signature="e#43#69#0" expanded="true" />
@@ -863,36 +965,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Zork/Weapons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="935">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Zork/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="e#43#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/neighborhood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/observable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zork/observer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511730487847" expanded="true" signature="61708:61832" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61708:61850" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61708:61863" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61708:61878" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61732:61815" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61913:64511" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61926:64496" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61980:62275" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="61999:62260" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62062:62240" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62102:62206" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62123:62184" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62325:62652" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62344:62637" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62439:62617" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62479:62583" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62500:62561" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62703:63075" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62722:63060" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62862:63040" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62902:63006" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="62923:62984" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63118:63424" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63137:63409" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63211:63389" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63251:63355" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63272:63333" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63475:63824" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63494:63809" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63572:63789" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63612:63755" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63633:63733" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63859:64165" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63878:64150" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63952:64130" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="63992:64096" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64013:64074" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64217:64482" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64236:64467" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64269:64447" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64309:64413" ph="..." />
+            <marker date="1511730487847" expanded="true" signature="64330:64391" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zork/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5041">
-          <caret line="411" column="46" lean-forward="false" selection-start-line="411" selection-start-column="46" selection-end-line="411" selection-end-column="46" />
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding>
             <element signature="e#43#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zork/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="44" column="76" lean-forward="false" selection-start-line="44" selection-start-column="76" selection-end-line="44" selection-end-column="76" />
-          <folding>
-            <element signature="e#43#72#0" expanded="true" />
           </folding>
         </state>
       </provider>

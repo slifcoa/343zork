@@ -14,15 +14,14 @@ class Game:
     # Instantiates the GUI
     #############################
     def __init__(self):
-        self.controller = Controller()
+        pygame.init()
+        pygame.display.set_caption("Zork's Conquest")
 
         self.windowWidth = 600
         self.windowHeight = 900
+        self.controller = Controller()
 
-        pygame.init()
-        pygame.display.set_caption("Zork's Conquest")
         self.createColor()
-        self.spriteStore = {}
         self.screen = pygame.display.set_mode((self.windowWidth, self.windowHeight))
         self.clock = pygame.time.Clock()
 
@@ -39,27 +38,28 @@ class Game:
     ########################################################################
     def run(self):
         gameExit = False
-        FPS = 13
-        playerX = 200
-        playerY = 100
+        FPS = 15
+        playerX = 100
+        playerY = 150
         nextMove = "s"
         playerXChange = 0
         playerYChange = 0
         counter = 0
         held = False
-        movementRate = 35
+        walkRate = 40
         onController = True
         isFighting = False
-        player = self.getImage("assets/player.jpg")
         fightOngoing = False
 
+        #get Icon for player
+        player = pygame.image.load("assets/player.jpg")
         while not gameExit:
             self.clock.tick(FPS)
 
             while self.gameOver:
                 self.screen.fill(self.black)
-                self.displayData("Game Over", self.red, 300, 450)
-                self.displayData("Do you want to Play again?: [Y]  [N]", self.white, 300, 450)
+                self.displayData("You Lost", self.red, 150, 280)
+                self.displayData("Try again?: [Y]  [N]", self.white, 150, 300)
                 pygame.display.update()
                 for event in pygame.event.get():
                     if event.type == pygame.KEYDOWN:
@@ -82,21 +82,21 @@ class Game:
                         if event.key == pygame.K_w:
                             nextMove = "n"
                             held = True
-                            playerYChange = -movementRate
+                            playerYChange = -walkRate
                         if event.key == pygame.K_a:
                             nextMove = "w"
                             held = True
-                            playerXChange = -movementRate
+                            playerXChange = -walkRate
 
                         if event.key == pygame.K_s:
                             nextMove = "s"
                             held = True
-                            playerYChange = movementRate
+                            playerYChange = walkRate
 
                         if event.key == pygame.K_d:
                             nextMove = "e"
                             held = True
-                            playerXChange = movementRate
+                            playerXChange = walkRate
 
                         if event.key == pygame.K_RETURN:
                             if self.currentHouse.monstersRem > 0:
@@ -133,7 +133,7 @@ class Game:
                     if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_0:
                             self.fight(self.controller.playerOne.stock[
-                                                 0])
+                                           0])
                             fightOngoing == True
                         if event.key == pygame.K_1 and len(self.controller.playerOne.stock) >= 2:
                             self.fight(self.controller.playerOne.stock[1])
@@ -165,12 +165,7 @@ class Game:
 
                 self.screen.fill(self.black)
                 self.screen.blit(self.battleBG, (0, 200))
-                self.screen.fill(self.white, rect=[650, 700, 10, 250])
-                self.screen.fill(self.white, rect=[650, 700, 250, 10])
-                self.screen.fill(self.white, rect=[900, 700, 10, 250])
-                self.screen.fill(self.lightblue, rect=[660, 710, 240, 240])
-                self.displayData("Zork", self.white, 680, 730)
-                self.displayData("HP: " + repr(self.controller.playerOne.playerHP), self.white, 680, 790)
+                self.displayData("Your Health: " + repr(self.controller.playerOne.playerHP), self.white, 0, 0)
                 self.displayMonsters()
                 self.printWeapons()
 
@@ -193,14 +188,6 @@ class Game:
         totalMonsters = self.controller.neighborhood.totalMonsters
         msg = repr(totalMonsters) + " monsters are still haunting the neighborhood"
         self.displayData(msg, self.black, 300, 15)
-
-    ##################################################
-    # uses sprite storing to load images in pygame
-    ##################################################
-    def getImage(self, key):
-        if key not in self.spriteStore:
-            self.spriteStore[key] = pygame.image.load(key)
-        return self.spriteStore[key]
 
     ##########################################
     # keeps track of the players location
@@ -251,22 +238,21 @@ class Game:
     ####################################
     def displayMonsters(self):
         monsters = self.currentHouse.monsters
-        monsterSpacing = 120
-        monsterX = 0
-        monsterY = 400
-
+        
+        xPosition = 0
+        gapBetween = 120
         for monster in monsters:
-            if monster.monType == "zombie":
-                self.screen.blit(self.zombie, (monsterX, monsterY))
-            elif monster.monType == "ghoul":
-                self.screen.blit(self.ghoul, (monsterX, monsterY))
-            elif monster.monType == "vampire":
-                self.screen.blit(self.vampire, (monsterX, monsterY))
-            elif monster.monType == "werewolf":
-                self.screen.blit(self.werewolf, (monsterX, monsterY))
+            if monster.monType == "ghoul":
+                self.screen.blit(self.ghoul, (xPosition, 350))
             elif monster.monType == "person":
-                self.screen.blit(self.person, (monsterX, monsterY))
-            monsterX += monsterSpacing
+                self.screen.blit(self.person, (xPosition, 350))
+            elif monster.monType == "vampire":
+                self.screen.blit(self.vampire, (xPosition, 350))
+            elif monster.monType == "werewolf":
+                self.screen.blit(self.werewolf, (xPosition, 350))
+            elif monster.monType == "zombie":
+                self.screen.blit(self.zombie, (xPosition, 350))
+            xPosition += gapBetween
 
     #############################
     # Display's current weapons
@@ -281,7 +267,7 @@ class Game:
         items = self.controller.playerOne.stock
 
         for item in items:
-            self.displayData("" + repr(itemIndex) + ": " + item.weapType + " x " + repr(item.ammo) + " uses left", self.lightblue, width, height)
+            self.displayData("" + repr(itemIndex) + ": " + item.weapType + " x " + repr(item.ammo) + " uses left", self.green, width, height)
             width += widthSpacing
             itemIndex += 1
             if width > 800:
@@ -294,9 +280,9 @@ class Game:
     def genGrid(self):
 
         self.nMap = [[[200, 300], [400, 300], [600, 300]],
-                         [[200, 600], [400, 600], [600, 600]],
-                         [[200, 900], [400, 900], [600, 900]]
-                         ]
+                     [[200, 600], [400, 600], [600, 600]],
+                     [[200, 900], [400, 900], [600, 900]]
+                     ]
 
         self.colLen = 300
         self.rowLen = 200
@@ -310,28 +296,31 @@ class Game:
     def genImages(self):
 
         # Backgrounds
-        self.bg = self.getImage('assets/neighborhood.png')
-        self.battleBG = self.getImage('assets/battlefieldP.png')
+        self.bg = pygame.image.load('assets/neighborhood.png')
+        self.battleBG = pygame.image.load('assets/battlefieldP.png')
 
         # Text
         self.font = pygame.font.SysFont("Comic Sans MS", 18)
 
+        # Player
+        self.player = pygame.image.load("assets/player.jpg")
+
         # Monsters
-        self.zombie = self.getImage('assets/zombie.jpg')
-        self.ghoul = self.getImage('assets/ghoul.jpg')
-        self.vampire = self.getImage('assets/vampire.jpg')
-        self.person = self.getImage('assets/person.jpg')
-        self.werewolf = self.getImage('assets/werewolf.jpg')
+        self.ghoul = pygame.image.load('assets/ghoul.jpg')
+        self.person = pygame.image.load('assets/person.jpg')
+        self.vampire = pygame.image.load('assets/vampire.jpg')
+        self.werewolf = pygame.image.load('assets/werewolf.jpg')
+        self.zombie = pygame.image.load('assets/zombie.jpg')
 
     ##############################################
     # Helper function that creates useful colors
     ##############################################
     def createColor(self):
-        self.red = (255, 0, 0)
-        self.green = (0, 255, 0)
-        self.white = (255, 255, 255)
+
         self.black = (0, 0, 0)
-        self.lightblue = (135, 206, 250)
+        self.green = (0, 255, 0)
+        self.red = (255, 0, 0)
+        self.white = (255, 255, 255)
 
     ############################################
     # Handles all of the logic during battle
@@ -343,13 +332,8 @@ class Game:
         winFight = False
         self.screen.fill(self.black)
         self.screen.blit(self.battleBG, (0, 200))
-        self.screen.fill(self.white, rect=[650, 700, 10, 250])
-        self.screen.fill(self.white, rect=[650, 700, 250, 10])
-        self.screen.fill(self.white, rect=[900, 700, 10, 250])
-        self.screen.fill(self.lightblue, rect=[660, 710, 240, 240])
-        self.displayData("Zork", self.white, 680, 730)
-        self.displayData("HP: " + repr(self.controller.playerOne.playerHP
-                                         ), self.white, 680, 790)
+        self.displayData("Your Health: " + repr(self.controller.playerOne.playerHP
+                                       ), self.white, 0, 0)
         self.displayData("You used: " + weapon.weapType, self.green, 20, 20)
         self.displayMonsters()
 
@@ -366,7 +350,7 @@ class Game:
         for monster in monsters:
             player.pHit(monster.mAttacking())
             fightDialogue.append(monster.monType + " attacked and dealt " + repr(monster.attDamage) + " damage!")
-        if player.playerHP\
+        if player.playerHP \
                 <= 0:
             fightDialogue.append("You died!!")
         if self.currentHouse.monstersRem == 0:
@@ -377,13 +361,8 @@ class Game:
         while screenText:
             self.screen.fill(self.black)
             self.screen.blit(self.battleBG, (0, 200))
-            self.screen.fill(self.white, rect=[650, 700, 10, 250])
-            self.screen.fill(self.white, rect=[650, 700, 250, 10])
-            self.screen.fill(self.white, rect=[900, 700, 10, 250])
-            self.screen.fill(self.lightblue, rect=[660, 710, 240, 240])
-            self.displayData("Zork ", self.white, 680, 730)
-            self.displayData("HP: " + repr(self.controller.playerOne.playerHP
-                                             ), self.white, 680, 790)
+            self.displayData("Your health: " + repr(self.controller.playerOne.playerHP
+                                           ), self.white, 0, 0)
             self.displayMonsters()
 
 
@@ -405,7 +384,7 @@ class Game:
             self.onController = True
             pygame.display.update()
             self.run()
-            
+
 
 ##############################################
 #Main Method class starts the entire program
